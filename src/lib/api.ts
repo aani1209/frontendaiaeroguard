@@ -16,7 +16,7 @@ const API_BASE = (() => {
   }
   
   // Production: same origin (backend serves frontend + API)
-  return '';
+  return 'https://archiepiscopally-indiscerptible-kayleigh.ngrok-free.dev';
 })();
 
 /**
@@ -106,3 +106,4 @@ export const api = {
     });
   },
 };
+
